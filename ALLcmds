@@ -1,0 +1,22 @@
+Linux commands for github:
+
+    touch file_name
+
+    gedit file_name
+
+    git status
+
+    git add filename for directory use git add . or git add git add -A
+
+ git status
+
+ git commit -m “comment”
+
+ git push -u origin master   FOR DIRECTORY  git push -f origin master
+ 
+ If error occurs Use :
+ git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
