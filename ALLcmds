@@ -25,3 +25,6 @@ git branch -D tmp
 
 for downloading the file
 git clone Repository_Name
+
+For cleaning all files in git status
+git clean -fd
